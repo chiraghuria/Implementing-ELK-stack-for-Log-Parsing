@@ -1,0 +1,716 @@
+2017-07-16T13:31:03.715Z,,,,DESKTOP-ULHBG2D
+2017-07-08T08:32:13.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:33:40.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:33:43.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:35:11.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:35:13.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:36:45.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:38:10.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:38:15.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:39:41.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:41:11.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:41:13.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:42:41.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:42:43.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:44:11.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:44:13.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:45:41.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:45:45.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:48:41.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:48:43.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:50:15.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T08:51:41.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:53:11.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8889',DESKTOP-ULHBG2D
+2017-07-08T08:53:13.000Z,WARN,FileSenderClient,"Server unreachable localhost:8004, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-08T14:26:10.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-08T20:26:10.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-09T14:26:09.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-10T08:26:11.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-10T14:26:10.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-10T20:26:09.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-11T02:26:09.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-11T05:30:59.000Z,ERROR,LoginHandler,"IllegalStateException from the logout session
+java.lang.IllegalStateException: invalidate: Session already invalidated
+	at org.apache.catalina.session.StandardSession.invalidate(StandardSession.java:1275)
+	at org.apache.catalina.session.StandardSessionFacade.invalidate(StandardSessionFacade.java:171)
+	at org.something.administrator.remoterepositorymgt.business.LoginHandler.removeSessionIdFromSession(LoginHandler.java:268)
+	at org.something.administrator.remoterepositorymgt.business.LoginHandler.removeUserFromSession(LoginHandler.java:257)
+	at org.something.administrator.remoterepositorymgt.business.LoginHandler.logoutFromTac(LoginHandler.java:182)
+	at org.something.gwtadministrator.server.common.LoginServiceImpl.logout(LoginServiceImpl.java:156)
+	at org.something.gwtadministrator.server.common.LoginServiceImpl.logout(LoginServiceImpl.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:561)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:208)
+	at org.something.gwttoolkit.server.somethingRemoteServiceServlet.processCall(somethingRemoteServiceServlet.java:104)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:248)
+	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwttoolkit.server.common.http.HeadersFilter.doFilter(HeadersFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwtadministrator.server.remoteconnection.RefererFilter.doFilter(RefererFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2521)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2510)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)",DESKTOP-ULHBG2D
+2017-07-11T08:26:10.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-11T14:26:09.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-12T08:26:10.000Z,WARN,PatchOrVersionMailSender,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-12T09:01:43.000Z,DEBUG,somethingRemoteServiceServlet,106088-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:01:43.000Z,DEBUG,somethingRemoteServiceServlet,106087-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:01:43.000Z,INFO,somethingRemoteServiceServlet,106087-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,DEBUG,somethingRemoteServiceServlet,106089-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:01:44 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:01:44 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,INFO,somethingRemoteServiceServlet,106088-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,INFO,somethingRemoteServiceServlet,106089-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,INFO,PropertiesLoader,Bundle '[Ljava.lang.String;@524f795_en' created.,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,INFO,somethingRemoteServiceServlet,106085-Finished 'ConfigService.saveConfigValue' in 2 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,DEBUG,somethingRemoteServiceServlet,106090-Starting 'ConfigService.check,DESKTOP-ULHBG2D
+2017-07-12T09:01:44.000Z,INFO,somethingRemoteServiceServlet,106090-Finished 'ConfigService.check' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:45.000Z,INFO,somethingRemoteServiceServlet,106086-Finished 'ConfigService.saveConfigValue' in 2 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:45.000Z,DEBUG,somethingRemoteServiceServlet,106091-Starting 'ConfigService.check,DESKTOP-ULHBG2D
+2017-07-12T09:01:45.000Z,INFO,somethingRemoteServiceServlet,106091-Finished 'ConfigService.check' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:46.000Z,DEBUG,PoolTimeOut,"java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.something.administrator.common.pool.PoolTimeOut.waitAll(PoolTimeOut.java:76)
+	at org.something.administrator.common.config.ConfigHandler.check(ConfigHandler.java:308)
+	at org.something.gwtadministrator.server.config.services.ConfigServiceImpl.check(ConfigServiceImpl.java:120)
+	at org.something.gwtadministrator.server.config.services.ConfigServiceImpl.checkAll(ConfigServiceImpl.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:561)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:208)
+	at org.something.gwttoolkit.server.somethingRemoteServiceServlet.processCall(somethingRemoteServiceServlet.java:104)
+	at org.something.gwtadministrator.server.LoggedAndNoLicenseCheckRemoteServiceServlet.processCall(LoggedAndNoLicenseCheckRemoteServiceServlet.java:34)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:248)
+	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwttoolkit.server.common.http.HeadersFilter.doFilter(HeadersFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwtadministrator.server.remoteconnection.RefererFilter.doFilter(RefererFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2521)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2510)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)",DESKTOP-ULHBG2D
+2017-07-12T09:01:46.000Z,INFO,ConfigHandler,TimeOut occurs when retrieving parameter 'config.commandLine.version',DESKTOP-ULHBG2D
+2017-07-12T09:01:46.000Z,INFO,PropertiesLoader,Bundle '[Ljava.lang.String;@218b0160_en' created.,DESKTOP-ULHBG2D
+2017-07-12T09:01:46.000Z,INFO,PropertiesLoader,Bundle '[Ljava.lang.String;@440f39f3_en' created.,DESKTOP-ULHBG2D
+2017-07-12T09:01:49.000Z,DEBUG,SvnCheckoutHelper,"Call on prepareWorkingDirectory for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}'",DESKTOP-ULHBG2D
+2017-07-12T09:01:49.000Z,DEBUG,SvnCheckoutHelper,"Processing prepareWorkingDirectory for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}' ...",DESKTOP-ULHBG2D
+2017-07-12T09:01:49.000Z,DEBUG,SvnCheckoutHelper,"Process prepareWorkingDirectory ended in 0 seconds for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}'",DESKTOP-ULHBG2D
+2017-07-12T09:01:49.000Z,DEBUG,RepoProjectRefresher,Repository of project 'MDM',DESKTOP-ULHBG2D
+2017-07-12T09:01:49.000Z,INFO,RepoProjectRefresher,0 seconds to refresh the SVN/Git local repository.,DESKTOP-ULHBG2D
+2017-07-12T09:01:51.000Z,DEBUG,PoolTimeOut,"java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.something.administrator.common.pool.PoolTimeOut.waitAll(PoolTimeOut.java:76)
+	at org.something.administrator.common.config.ConfigHandler.check(ConfigHandler.java:308)
+	at org.something.gwtadministrator.server.config.services.ConfigServiceImpl.check(ConfigServiceImpl.java:120)
+	at org.something.gwtadministrator.server.config.services.ConfigServiceImpl.checkAll(ConfigServiceImpl.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:561)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:208)
+	at org.something.gwttoolkit.server.somethingRemoteServiceServlet.processCall(somethingRemoteServiceServlet.java:104)
+	at org.something.gwtadministrator.server.LoggedAndNoLicenseCheckRemoteServiceServlet.processCall(LoggedAndNoLicenseCheckRemoteServiceServlet.java:34)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:248)
+	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwttoolkit.server.common.http.HeadersFilter.doFilter(HeadersFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.something.gwtadministrator.server.remoteconnection.RefererFilter.doFilter(RefererFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2521)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2510)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)",DESKTOP-ULHBG2D
+2017-07-12T09:01:51.000Z,INFO,ConfigHandler,TimeOut occurs when retrieving parameter 'config.commandLine.version',DESKTOP-ULHBG2D
+2017-07-12T09:01:51.000Z,INFO,PropertiesLoader,Bundle '[Ljava.lang.String;@49d820f_en' created.,DESKTOP-ULHBG2D
+2017-07-12T09:01:51.000Z,INFO,PropertiesLoader,Bundle '[Ljava.lang.String;@3febfee2_en' created.,DESKTOP-ULHBG2D
+2017-07-12T09:01:51.000Z,INFO,somethingRemoteServiceServlet,106082-Finished 'ConfigService.checkAll' in 14 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:53.000Z,DEBUG,somethingRemoteServiceServlet,106092-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:01:53.000Z,DEBUG,somethingRemoteServiceServlet,106093-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:01:53.000Z,INFO,somethingRemoteServiceServlet,106093-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:54.000Z,DEBUG,somethingRemoteServiceServlet,106094-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:01:54.000Z,INFO,somethingRemoteServiceServlet,106094-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:01:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:01:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:01:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:01:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:01:54.000Z,INFO,somethingRemoteServiceServlet,106092-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:02:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:02:03.000Z,DEBUG,somethingRemoteServiceServlet,106095-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:03.000Z,DEBUG,somethingRemoteServiceServlet,106096-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:03.000Z,INFO,somethingRemoteServiceServlet,106096-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:04.000Z,DEBUG,somethingRemoteServiceServlet,106097-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:04.000Z,INFO,somethingRemoteServiceServlet,106097-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:04.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:04.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:04.000Z,INFO,somethingRemoteServiceServlet,106095-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:13.000Z,DEBUG,somethingRemoteServiceServlet,106098-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:13.000Z,DEBUG,somethingRemoteServiceServlet,106099-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:13.000Z,INFO,somethingRemoteServiceServlet,106099-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:13.000Z,DEBUG,somethingRemoteServiceServlet,106100-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:13.000Z,INFO,somethingRemoteServiceServlet,106100-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:14.000Z,INFO,somethingRemoteServiceServlet,106098-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:16.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:16.000Z,DEBUG,somethingRemoteServiceServlet,106101-Starting 'JobServerService.getJobServersAndEsbServers,DESKTOP-ULHBG2D
+2017-07-12T09:02:16.000Z,INFO,somethingRemoteServiceServlet,106101-Finished 'JobServerService.getJobServersAndEsbServers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:18.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:18.000Z,DEBUG,somethingRemoteServiceServlet,106102-Starting 'JobServerService.getTimeZones,DESKTOP-ULHBG2D
+2017-07-12T09:02:18.000Z,INFO,somethingRemoteServiceServlet,106102-Finished 'JobServerService.getTimeZones' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:23.000Z,DEBUG,somethingRemoteServiceServlet,106103-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:23.000Z,DEBUG,somethingRemoteServiceServlet,106104-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:23.000Z,INFO,somethingRemoteServiceServlet,106104-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:24.000Z,DEBUG,somethingRemoteServiceServlet,106105-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:24.000Z,INFO,somethingRemoteServiceServlet,106105-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:24.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:24.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:24.000Z,INFO,somethingRemoteServiceServlet,106103-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,DEBUG,somethingRemoteServiceServlet,106106-Starting 'JobServerService.saveJobServer,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,INFO,somethingRemoteServiceServlet,106106-Finished 'JobServerService.saveJobServer' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,DEBUG,JMXClient,nb JMXClient: 21,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,INFO,JMXClient,Connecting a JMX connector (21) for URL: service:jmx:jmxmp://localhost:8888,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,DEBUG,somethingRemoteServiceServlet,106107-Starting 'JobServerService.getJobServersAndEsbServers,DESKTOP-ULHBG2D
+2017-07-12T09:02:30.000Z,INFO,somethingRemoteServiceServlet,106107-Finished 'JobServerService.getJobServersAndEsbServers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:31.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8888',DESKTOP-ULHBG2D
+2017-07-12T09:02:33.000Z,WARN,FileSenderClient,"Server unreachable localhost:8001, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-12T09:02:33.000Z,DEBUG,somethingRemoteServiceServlet,106108-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:33.000Z,DEBUG,somethingRemoteServiceServlet,106109-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:33.000Z,INFO,somethingRemoteServiceServlet,106109-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:34.000Z,DEBUG,somethingRemoteServiceServlet,106110-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:34.000Z,INFO,somethingRemoteServiceServlet,106110-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:34.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:34 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:34.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:34 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:34.000Z,INFO,somethingRemoteServiceServlet,106108-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:35.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:35.000Z,DEBUG,somethingRemoteServiceServlet,106111-Starting 'JobServerService.getJobServersAndEsbServers,DESKTOP-ULHBG2D
+2017-07-12T09:02:35.000Z,INFO,somethingRemoteServiceServlet,106111-Finished 'JobServerService.getJobServersAndEsbServers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:36.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:36.000Z,DEBUG,somethingRemoteServiceServlet,106112-Starting 'JobServerService.getJobServersAndEsbServers,DESKTOP-ULHBG2D
+2017-07-12T09:02:36.000Z,INFO,somethingRemoteServiceServlet,106112-Finished 'JobServerService.getJobServersAndEsbServers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:43.000Z,DEBUG,somethingRemoteServiceServlet,106113-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:43.000Z,DEBUG,somethingRemoteServiceServlet,106114-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:43.000Z,INFO,somethingRemoteServiceServlet,106114-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:44.000Z,DEBUG,somethingRemoteServiceServlet,106115-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:44.000Z,INFO,somethingRemoteServiceServlet,106115-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:44.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:44 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:44.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:44 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:44.000Z,INFO,somethingRemoteServiceServlet,106113-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:46.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:46.000Z,DEBUG,somethingRemoteServiceServlet,106116-Starting 'ConfigRightsService.getRoleList,DESKTOP-ULHBG2D
+2017-07-12T09:02:46.000Z,INFO,somethingRemoteServiceServlet,106116-Finished 'ConfigRightsService.getRoleList' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:50.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:50.000Z,DEBUG,somethingRemoteServiceServlet,106117-Starting 'ConfigRightsService.getRoleList,DESKTOP-ULHBG2D
+2017-07-12T09:02:50.000Z,INFO,somethingRemoteServiceServlet,106117-Finished 'ConfigRightsService.getRoleList' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:51.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:51.000Z,DEBUG,somethingRemoteServiceServlet,106118-Starting 'ConfigRightsService.updateUserRole,DESKTOP-ULHBG2D
+2017-07-12T09:02:51.000Z,INFO,somethingRemoteServiceServlet,106118-Finished 'ConfigRightsService.updateUserRole' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:53.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:53.000Z,DEBUG,somethingRemoteServiceServlet,106119-Starting 'ConfigRightsService.updateUserRole,DESKTOP-ULHBG2D
+2017-07-12T09:02:53.000Z,INFO,somethingRemoteServiceServlet,106119-Finished 'ConfigRightsService.updateUserRole' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,DEBUG,somethingRemoteServiceServlet,106120-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,DEBUG,somethingRemoteServiceServlet,106121-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,INFO,somethingRemoteServiceServlet,106121-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,DEBUG,somethingRemoteServiceServlet,106122-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:02:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:02:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,INFO,somethingRemoteServiceServlet,106122-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:54.000Z,INFO,somethingRemoteServiceServlet,106120-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:58.000Z,DEBUG,JMXClient,nb JMXClient: 22,DESKTOP-ULHBG2D
+2017-07-12T09:02:58.000Z,INFO,JMXClient,Connecting a JMX connector (22) for URL: service:jmx:jmxmp://localhost:8888,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,DEBUG,somethingRemoteServiceServlet,106123-Starting 'ConfigRightsService.updateUserRole,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,INFO,somethingRemoteServiceServlet,106123-Finished 'ConfigRightsService.updateUserRole' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,DEBUG,somethingRemoteServiceServlet,106124-Starting 'ConfigRightsService.updateUserRole,DESKTOP-ULHBG2D
+2017-07-12T09:02:59.000Z,INFO,somethingRemoteServiceServlet,106124-Finished 'ConfigRightsService.updateUserRole' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:03:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:03:00.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:03:00.000Z,DEBUG,somethingRemoteServiceServlet,106125-Starting 'ConfigRightsService.updateUserRole,DESKTOP-ULHBG2D
+2017-07-12T09:03:00.000Z,INFO,somethingRemoteServiceServlet,106125-Finished 'ConfigRightsService.updateUserRole' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:03.000Z,DEBUG,JobServerStateChecker,Duration of checkAllJobServer operation:5044 ms,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106126-Starting 'LicenseService.getAllowedTypesForLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106126-Finished 'LicenseService.getAllowedTypesForLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106127-Starting 'LicenseService.getLicenseCombinationStatus,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106127-Finished 'LicenseService.getLicenseCombinationStatus' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106128-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106129-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106129-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106128-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106130-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106131-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106131-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106130-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106132-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106132-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,DEBUG,somethingRemoteServiceServlet,106133-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:03:04.000Z,INFO,somethingRemoteServiceServlet,106133-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,DEBUG,somethingRemoteServiceServlet,106134-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,INFO,somethingRemoteServiceServlet,106134-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,DEBUG,somethingRemoteServiceServlet,106135-Starting 'UserService.useLDAPAutentication,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,INFO,somethingRemoteServiceServlet,106135-Finished 'UserService.useLDAPAutentication' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,DEBUG,somethingRemoteServiceServlet,106136-Starting 'UserRoleService.getUserRoles,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,DEBUG,somethingRemoteServiceServlet,106137-Starting 'UserRoleService.getUserRoles,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,INFO,somethingRemoteServiceServlet,106137-Finished 'UserRoleService.getUserRoles' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,INFO,somethingRemoteServiceServlet,106136-Finished 'UserRoleService.getUserRoles' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,DEBUG,somethingRemoteServiceServlet,106138-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:03:05.000Z,INFO,somethingRemoteServiceServlet,106138-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:13.000Z,DEBUG,somethingRemoteServiceServlet,106139-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:13.000Z,DEBUG,somethingRemoteServiceServlet,106140-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:13.000Z,INFO,somethingRemoteServiceServlet,106140-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:14.000Z,DEBUG,somethingRemoteServiceServlet,106141-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:14.000Z,INFO,somethingRemoteServiceServlet,106141-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:14.000Z,INFO,somethingRemoteServiceServlet,106139-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:20.000Z,INFO,ServerMsgServiceImpl,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,DEBUG,somethingRemoteServiceServlet,106142-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,DEBUG,somethingRemoteServiceServlet,106143-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,INFO,somethingRemoteServiceServlet,106143-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,DEBUG,somethingRemoteServiceServlet,106144-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:23 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:23 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,INFO,somethingRemoteServiceServlet,106142-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:23.000Z,INFO,somethingRemoteServiceServlet,106144-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,DEBUG,somethingRemoteServiceServlet,106145-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,DEBUG,somethingRemoteServiceServlet,106146-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,INFO,somethingRemoteServiceServlet,106146-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,DEBUG,somethingRemoteServiceServlet,106147-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,INFO,somethingRemoteServiceServlet,106147-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:33.000Z,INFO,somethingRemoteServiceServlet,106145-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,DEBUG,somethingRemoteServiceServlet,106148-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,INFO,somethingRemoteServiceServlet,106148-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,DEBUG,somethingRemoteServiceServlet,106149-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,INFO,somethingRemoteServiceServlet,106149-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,DEBUG,somethingRemoteServiceServlet,106150-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:03:34.000Z,INFO,somethingRemoteServiceServlet,106150-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,DEBUG,somethingRemoteServiceServlet,106151-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,DEBUG,somethingRemoteServiceServlet,106152-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,INFO,somethingRemoteServiceServlet,106152-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,DEBUG,somethingRemoteServiceServlet,106153-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,INFO,somethingRemoteServiceServlet,106151-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:43.000Z,INFO,somethingRemoteServiceServlet,106153-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:53.000Z,DEBUG,somethingRemoteServiceServlet,106154-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:03:53.000Z,DEBUG,somethingRemoteServiceServlet,106155-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:03:53.000Z,INFO,somethingRemoteServiceServlet,106155-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:54.000Z,DEBUG,somethingRemoteServiceServlet,106156-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:03:54.000Z,INFO,somethingRemoteServiceServlet,106156-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:03:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:03:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:03:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:03:54.000Z,INFO,somethingRemoteServiceServlet,106154-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:04:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,DEBUG,somethingRemoteServiceServlet,106157-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,DEBUG,somethingRemoteServiceServlet,106158-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:54.000Z,DEBUG,somethingRemoteServiceServlet,106204-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:54.000Z,INFO,somethingRemoteServiceServlet,106204-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:54.000Z,INFO,somethingRemoteServiceServlet,106202-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:58.000Z,DEBUG,JMXClient,nb JMXClient: 24,DESKTOP-ULHBG2D
+2017-07-12T09:05:58.000Z,INFO,JMXClient,Connecting a JMX connector (24) for URL: service:jmx:jmxmp://localhost:8888,DESKTOP-ULHBG2D
+2017-07-12T09:05:59.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8888',DESKTOP-ULHBG2D
+2017-07-12T09:06:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:06:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,WARN,FileSenderClient,"Server unreachable localhost:8001, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,JobServerStateChecker,Duration of checkAllJobServer operation:5042 ms,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,somethingRemoteServiceServlet,106205-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,somethingRemoteServiceServlet,106206-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,INFO,somethingRemoteServiceServlet,106206-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,somethingRemoteServiceServlet,106207-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,INFO,somethingRemoteServiceServlet,106205-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:03.000Z,INFO,somethingRemoteServiceServlet,106207-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,DEBUG,somethingRemoteServiceServlet,106208-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,INFO,somethingRemoteServiceServlet,106208-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,DEBUG,somethingRemoteServiceServlet,106209-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,INFO,somethingRemoteServiceServlet,106209-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,DEBUG,somethingRemoteServiceServlet,106210-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:06:04.000Z,INFO,somethingRemoteServiceServlet,106210-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:13.000Z,DEBUG,somethingRemoteServiceServlet,106211-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:06:13.000Z,DEBUG,somethingRemoteServiceServlet,106212-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:13.000Z,INFO,somethingRemoteServiceServlet,106212-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:14.000Z,DEBUG,somethingRemoteServiceServlet,106213-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:14.000Z,INFO,somethingRemoteServiceServlet,106213-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:14.000Z,INFO,somethingRemoteServiceServlet,106211-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106214-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106214-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106215-Starting 'UserService.useLDAPAutentication,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106215-Finished 'UserService.useLDAPAutentication' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106216-Starting 'UserRoleService.getUserRoles,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106216-Finished 'UserRoleService.getUserRoles' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106217-Starting 'UserGroupsService.getUserGroupNeedUnassign,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106218-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106217-Finished 'UserGroupsService.getUserGroupNeedUnassign' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106218-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,DEBUG,somethingRemoteServiceServlet,106219-Starting 'UserGroupProjectAuthService.getProjectNeedUserUnAuthorization,DESKTOP-ULHBG2D
+2017-07-12T09:06:20.000Z,INFO,somethingRemoteServiceServlet,106219-Finished 'UserGroupProjectAuthService.getProjectNeedUserUnAuthorization' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106220-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106220-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106221-Starting 'UserService.useLDAPAutentication,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106221-Finished 'UserService.useLDAPAutentication' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106222-Starting 'UserRoleService.getUserRoles,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106222-Finished 'UserRoleService.getUserRoles' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106223-Starting 'UserGroupsService.getUserGroupNeedUnassign,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106223-Finished 'UserGroupsService.getUserGroupNeedUnassign' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106224-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106224-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,DEBUG,somethingRemoteServiceServlet,106225-Starting 'UserGroupProjectAuthService.getProjectNeedUserUnAuthorization,DESKTOP-ULHBG2D
+2017-07-12T09:06:21.000Z,INFO,somethingRemoteServiceServlet,106225-Finished 'UserGroupProjectAuthService.getProjectNeedUserUnAuthorization' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:23.000Z,DEBUG,somethingRemoteServiceServlet,106226-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:06:23.000Z,DEBUG,somethingRemoteServiceServlet,106227-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:23.000Z,INFO,somethingRemoteServiceServlet,106227-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:23.000Z,DEBUG,somethingRemoteServiceServlet,106228-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:23.000Z,INFO,somethingRemoteServiceServlet,106228-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:24.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:24.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:24.000Z,INFO,somethingRemoteServiceServlet,106226-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,DEBUG,somethingRemoteServiceServlet,106229-Starting 'ProjectService.isAdvancedSettingsAuthorized,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,INFO,somethingRemoteServiceServlet,106229-Finished 'ProjectService.isAdvancedSettingsAuthorized' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,DEBUG,somethingRemoteServiceServlet,106230-Starting 'LicenseService.getLicenseCombinationStatus,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,INFO,somethingRemoteServiceServlet,106230-Finished 'LicenseService.getLicenseCombinationStatus' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:25.000Z,DEBUG,somethingRemoteServiceServlet,106231-Starting 'ProjectService.getProjectsWithCheckSvnConnection,DESKTOP-ULHBG2D
+2017-07-12T09:06:26.000Z,DEBUG,somethingRemoteServiceServlet,106232-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:26.000Z,INFO,somethingRemoteServiceServlet,106232-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:26.000Z,DEBUG,somethingRemoteServiceServlet,106233-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:26.000Z,INFO,somethingRemoteServiceServlet,106233-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:30.000Z,INFO,somethingRemoteServiceServlet,106231-Finished 'ProjectService.getProjectsWithCheckSvnConnection' in 5 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:30.000Z,DEBUG,somethingRemoteServiceServlet,106234-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:30.000Z,INFO,somethingRemoteServiceServlet,106234-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:32.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:32.000Z,DEBUG,somethingRemoteServiceServlet,106235-Starting 'ProjectService.checkProjectConnection,DESKTOP-ULHBG2D
+2017-07-12T09:06:32.000Z,INFO,somethingRemoteServiceServlet,106235-Finished 'ProjectService.checkProjectConnection' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,DEBUG,somethingRemoteServiceServlet,106236-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,DEBUG,somethingRemoteServiceServlet,106237-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,INFO,somethingRemoteServiceServlet,106237-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,DEBUG,somethingRemoteServiceServlet,106238-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,INFO,somethingRemoteServiceServlet,106236-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:33.000Z,INFO,somethingRemoteServiceServlet,106238-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,DEBUG,somethingRemoteServiceServlet,106239-Starting 'ProjectService.saveProject,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,INFO,somethingRemoteServiceServlet,106239-Finished 'ProjectService.saveProject' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,DEBUG,somethingRemoteServiceServlet,106240-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,INFO,somethingRemoteServiceServlet,106240-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:06:34.000Z,DEBUG,somethingRemoteServiceServlet,106241-Starting 'ProjectService.getProjectsWithCheckSvnConnection,DESKTOP-ULHBG2D
+2017-07-12T09:06:39.000Z,INFO,somethingRemoteServiceServlet,106241-Finished 'ProjectService.getProjectsWithCheckSvnConnection' in 5 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:39.000Z,DEBUG,somethingRemoteServiceServlet,106242-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:06:39.000Z,INFO,somethingRemoteServiceServlet,106242-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,DEBUG,somethingRemoteServiceServlet,106243-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,DEBUG,somethingRemoteServiceServlet,106244-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,INFO,somethingRemoteServiceServlet,106244-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,DEBUG,somethingRemoteServiceServlet,106245-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,INFO,somethingRemoteServiceServlet,106245-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:43.000Z,INFO,somethingRemoteServiceServlet,106243-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:50.000Z,DEBUG,SvnCheckoutHelper,"Call on prepareWorkingDirectory for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}'",DESKTOP-ULHBG2D
+2017-07-12T09:06:50.000Z,DEBUG,SvnCheckoutHelper,"Processing prepareWorkingDirectory for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}' ...",DESKTOP-ULHBG2D
+2017-07-12T09:06:50.000Z,DEBUG,SvnCheckoutHelper,"Process prepareWorkingDirectory ended in 0 seconds for: '{""location"":""https://TAL-ADIALLO3.something.com:444/svn/tac641/MDM/trunk"",""login"":""admin"",""passwd"":""gqBEeNMTqNc="",""settings"":""000"",""storage"":""svn""}'",DESKTOP-ULHBG2D
+2017-07-12T09:06:50.000Z,DEBUG,RepoProjectRefresher,Repository of project 'MDM',DESKTOP-ULHBG2D
+2017-07-12T09:06:50.000Z,INFO,RepoProjectRefresher,0 seconds to refresh the SVN/Git local repository.,DESKTOP-ULHBG2D
+2017-07-12T09:06:53.000Z,DEBUG,somethingRemoteServiceServlet,106246-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,INFO,somethingRemoteServiceServlet,106158-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,DEBUG,somethingRemoteServiceServlet,106159-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,INFO,somethingRemoteServiceServlet,106159-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:03.000Z,INFO,somethingRemoteServiceServlet,106157-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,DEBUG,somethingRemoteServiceServlet,106160-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,INFO,somethingRemoteServiceServlet,106160-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,DEBUG,somethingRemoteServiceServlet,106161-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,INFO,somethingRemoteServiceServlet,106161-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,DEBUG,somethingRemoteServiceServlet,106162-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:04:04.000Z,INFO,somethingRemoteServiceServlet,106162-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:13.000Z,DEBUG,somethingRemoteServiceServlet,106163-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:13.000Z,DEBUG,somethingRemoteServiceServlet,106164-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:04:13.000Z,INFO,somethingRemoteServiceServlet,106164-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:14.000Z,DEBUG,somethingRemoteServiceServlet,106165-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:14.000Z,INFO,somethingRemoteServiceServlet,106165-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:14.000Z,INFO,somethingRemoteServiceServlet,106163-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:23.000Z,DEBUG,somethingRemoteServiceServlet,106166-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:23.000Z,DEBUG,somethingRemoteServiceServlet,106167-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:04:23.000Z,INFO,somethingRemoteServiceServlet,106167-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:23.000Z,DEBUG,somethingRemoteServiceServlet,106168-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:24.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:24.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:24.000Z,INFO,somethingRemoteServiceServlet,106168-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:24.000Z,INFO,somethingRemoteServiceServlet,106166-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:28.000Z,DEBUG,JMXClient,nb JMXClient: 23,DESKTOP-ULHBG2D
+2017-07-12T09:04:28.000Z,INFO,JMXClient,Connecting a JMX connector (23) for URL: service:jmx:jmxmp://localhost:8888,DESKTOP-ULHBG2D
+2017-07-12T09:04:29.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8888',DESKTOP-ULHBG2D
+2017-07-12T09:04:31.000Z,WARN,FileSenderClient,"Server unreachable localhost:8001, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,JobServerStateChecker,Duration of checkAllJobServer operation:5040 ms,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,somethingRemoteServiceServlet,106169-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,somethingRemoteServiceServlet,106170-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,INFO,somethingRemoteServiceServlet,106170-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,INFO,somethingRemoteServiceServlet,106169-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,DEBUG,somethingRemoteServiceServlet,106171-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:33.000Z,INFO,somethingRemoteServiceServlet,106171-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,DEBUG,somethingRemoteServiceServlet,106172-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,INFO,somethingRemoteServiceServlet,106172-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,DEBUG,somethingRemoteServiceServlet,106173-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,INFO,somethingRemoteServiceServlet,106173-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,DEBUG,somethingRemoteServiceServlet,106174-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:04:34.000Z,INFO,somethingRemoteServiceServlet,106174-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,DEBUG,somethingRemoteServiceServlet,106175-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,DEBUG,somethingRemoteServiceServlet,106176-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,INFO,somethingRemoteServiceServlet,106176-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,DEBUG,somethingRemoteServiceServlet,106177-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:43.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:44.000Z,INFO,somethingRemoteServiceServlet,106175-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:44.000Z,INFO,somethingRemoteServiceServlet,106177-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,DEBUG,somethingRemoteServiceServlet,106178-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,DEBUG,somethingRemoteServiceServlet,106179-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,INFO,somethingRemoteServiceServlet,106179-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,DEBUG,somethingRemoteServiceServlet,106180-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:04:53 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:04:53 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,INFO,somethingRemoteServiceServlet,106180-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:04:53.000Z,INFO,somethingRemoteServiceServlet,106178-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:05:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:05:03.000Z,DEBUG,somethingRemoteServiceServlet,106181-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:03.000Z,DEBUG,somethingRemoteServiceServlet,106182-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:03.000Z,INFO,somethingRemoteServiceServlet,106182-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,somethingRemoteServiceServlet,106183-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,INFO,somethingRemoteServiceServlet,106183-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,INFO,somethingRemoteServiceServlet,106181-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,somethingRemoteServiceServlet,106184-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,INFO,somethingRemoteServiceServlet,106184-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,somethingRemoteServiceServlet,106185-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,INFO,somethingRemoteServiceServlet,106185-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,DEBUG,somethingRemoteServiceServlet,106186-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:05:04.000Z,INFO,somethingRemoteServiceServlet,106186-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:13.000Z,DEBUG,somethingRemoteServiceServlet,106187-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:13.000Z,DEBUG,somethingRemoteServiceServlet,106188-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:13.000Z,INFO,somethingRemoteServiceServlet,106188-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:14.000Z,DEBUG,somethingRemoteServiceServlet,106189-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:14.000Z,INFO,somethingRemoteServiceServlet,106187-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:14.000Z,INFO,somethingRemoteServiceServlet,106189-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:20.000Z,INFO,ServerMsgServiceImpl,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-12T09:05:23.000Z,DEBUG,somethingRemoteServiceServlet,106190-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:23.000Z,DEBUG,somethingRemoteServiceServlet,106191-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:23.000Z,INFO,somethingRemoteServiceServlet,106191-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:24.000Z,DEBUG,somethingRemoteServiceServlet,106192-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:24.000Z,INFO,somethingRemoteServiceServlet,106192-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:24.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:24.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:24.000Z,INFO,somethingRemoteServiceServlet,106190-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,DEBUG,somethingRemoteServiceServlet,106193-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,DEBUG,somethingRemoteServiceServlet,106194-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,INFO,somethingRemoteServiceServlet,106194-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,DEBUG,somethingRemoteServiceServlet,106195-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,INFO,somethingRemoteServiceServlet,106195-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:33.000Z,INFO,somethingRemoteServiceServlet,106193-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,DEBUG,somethingRemoteServiceServlet,106196-Starting 'UserService.getUsers,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,INFO,somethingRemoteServiceServlet,106196-Finished 'UserService.getUsers' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,DEBUG,somethingRemoteServiceServlet,106197-Starting 'LicenseService.getLicenseMode,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,INFO,somethingRemoteServiceServlet,106197-Finished 'LicenseService.getLicenseMode' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,DEBUG,somethingRemoteServiceServlet,106198-Starting 'ConfigService.getValue,DESKTOP-ULHBG2D
+2017-07-12T09:05:34.000Z,INFO,somethingRemoteServiceServlet,106198-Finished 'ConfigService.getValue' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,DEBUG,somethingRemoteServiceServlet,106199-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,DEBUG,somethingRemoteServiceServlet,106200-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,INFO,somethingRemoteServiceServlet,106200-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,DEBUG,somethingRemoteServiceServlet,106201-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:05:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:05:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,INFO,somethingRemoteServiceServlet,106199-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:43.000Z,INFO,somethingRemoteServiceServlet,106201-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:05:53.000Z,DEBUG,somethingRemoteServiceServlet,106202-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:05:53.000Z,DEBUG,somethingRemoteServiceServlet,106203-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:05:53.000Z,INFO,somethingRemoteServiceServlet,106203-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:53.000Z,DEBUG,somethingRemoteServiceServlet,106247-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:06:53.000Z,INFO,somethingRemoteServiceServlet,106247-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:54.000Z,DEBUG,somethingRemoteServiceServlet,106248-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:06:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:06:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:06:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:06:54.000Z,INFO,somethingRemoteServiceServlet,106246-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:06:54.000Z,INFO,somethingRemoteServiceServlet,106248-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:07:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,DEBUG,somethingRemoteServiceServlet,106249-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,DEBUG,somethingRemoteServiceServlet,106250-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,INFO,somethingRemoteServiceServlet,106250-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,DEBUG,somethingRemoteServiceServlet,106251-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,INFO,somethingRemoteServiceServlet,106251-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:03 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:03.000Z,INFO,somethingRemoteServiceServlet,106249-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:09.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:07:09.000Z,DEBUG,somethingRemoteServiceServlet,106252-Starting 'ProjectService.getProjectsWithCheckSvnConnection,DESKTOP-ULHBG2D
+2017-07-12T09:07:13.000Z,DEBUG,somethingRemoteServiceServlet,106253-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:13.000Z,DEBUG,somethingRemoteServiceServlet,106254-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:13.000Z,INFO,somethingRemoteServiceServlet,106254-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,DEBUG,somethingRemoteServiceServlet,106255-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,INFO,somethingRemoteServiceServlet,106255-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:14 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,INFO,somethingRemoteServiceServlet,106253-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,INFO,somethingRemoteServiceServlet,106252-Finished 'ProjectService.getProjectsWithCheckSvnConnection' in 5 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,DEBUG,somethingRemoteServiceServlet,106256-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:07:14.000Z,INFO,somethingRemoteServiceServlet,106256-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:20.000Z,INFO,ServerMsgServiceImpl,Username or password is not correct,DESKTOP-ULHBG2D
+2017-07-12T09:07:23.000Z,DEBUG,somethingRemoteServiceServlet,106257-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:23.000Z,DEBUG,somethingRemoteServiceServlet,106258-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:23.000Z,INFO,somethingRemoteServiceServlet,106258-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:24.000Z,DEBUG,somethingRemoteServiceServlet,106259-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:24.000Z,INFO,somethingRemoteServiceServlet,106259-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:24.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:24.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:24 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:24.000Z,INFO,somethingRemoteServiceServlet,106257-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:28.000Z,DEBUG,JMXClient,nb JMXClient: 25,DESKTOP-ULHBG2D
+2017-07-12T09:07:28.000Z,INFO,JMXClient,Connecting a JMX connector (25) for URL: service:jmx:jmxmp://localhost:8888,DESKTOP-ULHBG2D
+2017-07-12T09:07:29.000Z,WARN,JMXClient,Connection refused: connect 'service:jmx:jmxmp://localhost:8888',DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,WARN,FileSenderClient,"Server unreachable localhost:8001, message: Connection refused: connect",DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,JobServerStateChecker,Duration of checkAllJobServer operation:5043 ms,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,somethingRemoteServiceServlet,106260-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,somethingRemoteServiceServlet,106261-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,INFO,somethingRemoteServiceServlet,106261-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:33 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,DEBUG,somethingRemoteServiceServlet,106262-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,INFO,somethingRemoteServiceServlet,106260-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:33.000Z,INFO,somethingRemoteServiceServlet,106262-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,DEBUG,somethingRemoteServiceServlet,106263-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,DEBUG,somethingRemoteServiceServlet,106264-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,INFO,somethingRemoteServiceServlet,106264-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,DEBUG,somethingRemoteServiceServlet,106265-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:43 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,INFO,somethingRemoteServiceServlet,106265-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:43.000Z,INFO,somethingRemoteServiceServlet,106263-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:44.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:07:44.000Z,DEBUG,somethingRemoteServiceServlet,106266-Starting 'ProjectService.getProjectsWithCheckSvnConnection,DESKTOP-ULHBG2D
+2017-07-12T09:07:49.000Z,INFO,somethingRemoteServiceServlet,106266-Finished 'ProjectService.getProjectsWithCheckSvnConnection' in 5 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:49.000Z,DEBUG,somethingRemoteServiceServlet,106267-Starting 'LicenseService.getAvailableTypes,DESKTOP-ULHBG2D
+2017-07-12T09:07:49.000Z,INFO,somethingRemoteServiceServlet,106267-Finished 'LicenseService.getAvailableTypes' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:53.000Z,DEBUG,somethingRemoteServiceServlet,106268-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:07:53.000Z,DEBUG,somethingRemoteServiceServlet,106269-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:07:53.000Z,INFO,somethingRemoteServiceServlet,106269-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:54.000Z,DEBUG,somethingRemoteServiceServlet,106270-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:07:54.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:07:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:54.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:07:54 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:07:54.000Z,INFO,somethingRemoteServiceServlet,106268-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:07:54.000Z,INFO,somethingRemoteServiceServlet,106270-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:00.000Z,DEBUG,somethingJobStoreTX,MisfireHandler: scanning for misfires...,DESKTOP-ULHBG2D
+2017-07-12T09:08:00.000Z,DEBUG,somethingJobStoreTX,Found 0 triggers that missed their scheduled fire-time.,DESKTOP-ULHBG2D
+2017-07-12T09:08:03.000Z,DEBUG,somethingRemoteServiceServlet,106271-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:08:03.000Z,DEBUG,somethingRemoteServiceServlet,106272-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:08:03.000Z,INFO,somethingRemoteServiceServlet,106272-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:04.000Z,DEBUG,somethingRemoteServiceServlet,106273-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:08:04.000Z,INFO,somethingRemoteServiceServlet,106273-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:04.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:08:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:08:04.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:08:04 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:08:04.000Z,INFO,somethingRemoteServiceServlet,106271-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,DEBUG,somethingRemoteServiceServlet,106274-Starting 'LoginService.getLoggedUser,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,DEBUG,somethingRemoteServiceServlet,106275-Starting 'ServerMsgService.getIdMessages,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,INFO,somethingRemoteServiceServlet,106275-Finished 'ServerMsgService.getIdMessages' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,DEBUG,somethingRemoteServiceServlet,106276-Starting 'ServerMsgService.getMessageByListId,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,DEBUG,UsersCache,ping-10-Wed Jul 12 09:08:13 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,DEBUG,UsersCache,purge-Wed Jul 12 09:08:13 PDT 2017,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,INFO,somethingRemoteServiceServlet,106274-Finished 'LoginService.getLoggedUser' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:13.000Z,INFO,somethingRemoteServiceServlet,106276-Finished 'ServerMsgService.getMessageByListId' in 0 sec.,DESKTOP-ULHBG2D
+2017-07-12T09:08:19.000Z,DEBUG,TokenRequiredPolicy,Checking token,DESKTOP-ULHBG2D
+2017-07-12T09:08:19.000Z,DEBUG,somethingRemoteServiceServlet,106277-Starting 'ProjectService.getProjectsWithCheckSvnConnection,DESKTOP-ULHBG2D
